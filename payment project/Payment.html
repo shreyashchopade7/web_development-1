@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Payment Form</title>
+</head>
+<body >
+    <div class="container">
+    <form action="">
+        <h1 class="mainh">Payment Form</h1>
+        <hr>
+        <h2>Contact Information</h2>
+        <hr>
+        <p>Name: *<input type="text" name="name" required></p>
+        <fieldset>
+            <legend>Gender *</legend>
+        <p>
+            Male <input type="radio" name="Gender" id="male" required>  Female <input type="radio" name="Gender" id="female" required>
+        </p>
+    </fieldset>
+    <p>Address: <textarea name="address" id="address" cols="82" rows="4"></textarea></p>
+    <p>Email: * <input type="email" name="email" id="email" required></p>
+    <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+    <hr>
+    <h2>Payment Information</h2>
+    <hr>
+    <p>Card Company: *
+        <select name="card_company" id="card_company" required> 
+            <option value="">--Select Card Company--</option>
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</option>
+            <option value="mastercard">Master Card</option>
+        </select>
+
+    </p>
+    <img src="img1.jpg" alt="" width="18%" height="38px">
+    <img src="img2.jpg" alt="" width="18%" height="38px" >
+    <img src="img3.jpg" alt="" width="18%" height="38px">
+    <p>
+        Payment Amount: *<input type="number" name="amount" id="amount" required>
+    </p>
+    <p>
+        Card Number: * <input type="number" name="cardnumber" id="cardnumber"required>
+    </p>
+    <p>
+        Expiration Date: *<input type="date" name="expiry" id="expiry" required>
+    </p>
+    <p>CVV: *<input type="password" name="cvv" id="cvv"required></p>
+    <input type="submit" value="Pay now">
+
+    </form>
+</div>
+</body>
+</html>

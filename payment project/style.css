@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+    font-size: 16px;
+    padding: 5px;
+}
+.container{
+    background-color: rgb(175, 221, 235);
+    padding: 5px;
+    border: 3px solid darkcyan;
+    border-radius: 15px;
+}
+input[type="text"],
+fieldset{
+    margin: 5px;
+    background-color: aliceblue;
+
+}
+.mainh{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(10, 61, 247);
+    border: 3px solid darkblue;
+    background-color: rgb(240, 235, 93);
+    border-radius: 100px;
+}
+input[type="submit"]{
+    background-color: darkcyan;
+    color: white;
+    padding: 9px;
+    cursor: grab;
+    width: 40%;
+}
+input[type="submit"]:hover{
+    background-color: rgb(52, 240, 102);
+}
+textarea{
+    width: 99%;
+    padding: 8px;
+    margin: 10px;
+}

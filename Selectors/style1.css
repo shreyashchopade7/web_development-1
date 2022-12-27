@@ -1,0 +1,16 @@
+.box1,.box2{
+    height: 100px;
+    width: 100px;
+}
+.box1{
+    margin: 30px;
+    background-color: aqua;
+}
+.box2{
+    padding: 30px;
+    background-color: blue;
+    border: 10px solid black;
+}
+.wrapper{
+    background-color: blueviolet;
+}

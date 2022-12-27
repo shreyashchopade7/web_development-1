@@ -1,0 +1,28 @@
+body{
+    margin: 10px;
+    max-width: 1000px;
+    width: 90%;
+}
+#box
+{
+    float: right;
+    margin: 15px;
+    width: 130px;
+    height: 130px;
+    background-color: aqua;
+}
+.container{
+    border: 3px solid orange;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(255, 253, 121);
+    
+}
+.one{
+    background-color: rgb(255, 218, 82);
+    padding: 20px;
+}
+.two{
+    background-color: rgb(255, 193, 77);
+    padding: 30px;
+}
